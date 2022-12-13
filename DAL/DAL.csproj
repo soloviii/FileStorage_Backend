@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20220417125525_InitialCreate.cs" />
+    <Compile Remove="Migrations\20220417125525_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20220518061856_change UserId type to string.cs" />
+    <Compile Remove="Migrations\20220518061856_change UserId type to string.Designer.cs" />
+    <Compile Remove="Migrations\20220518062220_change UserId length.cs" />
+    <Compile Remove="Migrations\20220518062220_change UserId length.Designer.cs" />
+    <Compile Remove="Migrations\20220518063717_changeUserId.cs" />
+    <Compile Remove="Migrations\20220518063717_changeUserId.Designer.cs" />
+    <Compile Remove="Migrations\20220518093909_changeUserId2.cs" />
+    <Compile Remove="Migrations\20220518093909_changeUserId2.Designer.cs" />
+    <Compile Remove="Migrations\20220518094218_changeUserId3.cs" />
+    <Compile Remove="Migrations\20220518094218_changeUserId3.Designer.cs" />
+    <Compile Remove="Migrations\20220518094522_changeUserId4.cs" />
+    <Compile Remove="Migrations\20220518094522_changeUserId4.Designer.cs" />
+    <Compile Remove="Migrations\20220518094853_changeUserId4.cs" />
+    <Compile Remove="Migrations\20220518094853_changeUserId4.Designer.cs" />
+    <Compile Remove="Migrations\20220518095136_changeUserId5.cs" />
+    <Compile Remove="Migrations\20220518095136_changeUserId5.Designer.cs" />
+    <Compile Remove="Migrations\20220518100040_changeUserId6.cs" />
+    <Compile Remove="Migrations\20220518100040_changeUserId6.Designer.cs" />
+    <Compile Remove="Migrations\20220518120355_removeRequire.cs" />
+    <Compile Remove="Migrations\20220518120355_removeRequire.Designer.cs" />
+  </ItemGroup>
+
+  <!--<ItemGroup>
+    <Compile Remove="Migrations\20220416141600_MyFirstMigration.cs" />
+    <Compile Remove="Migrations\20220416141600_MyFirstMigration.Designer.cs" />
+    <Compile Remove="Migrations\20220416164716_MyFirstMigration.cs" />
+    <Compile Remove="Migrations\20220416164716_MyFirstMigration.Designer.cs" />
+    <Compile Remove="Migrations\20220417082639_CreatingIdentityScheme.cs" />
+    <Compile Remove="Migrations\20220417082639_CreatingIdentityScheme.Designer.cs" />
+  </ItemGroup>-->
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>
